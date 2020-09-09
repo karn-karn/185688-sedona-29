@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Карэн Карин](https://up.htmlacademy.ru/htmlcss/29/user/185688).
-* Наставник: `Неизвестно`.
+* Наставник: [Никита Сигов](https://htmlacademy.ru/profile/crazer).
 
 ---
 
