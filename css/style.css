@@ -1,0 +1,135 @@
+/* Variables */
+
+:root {
+  --basic-white: #FFFFFF;
+  --basic-black: #000000;
+  --black-text: #333333;
+  --basic-blue: #81B3D2;
+  --basic-grey: #EEEEEE;
+  --background-grey: #888888;
+  --basic-brown: #766357;
+  --brown-tagline: #766458;
+  --grey-rating: #F2F2F2;
+  --footer-background: rgba(255, 255, 255, 0.9);
+	}
+
+body {
+  min-width: 1220px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--black-text);
+  text-transform: uppercase;
+  background-color: var(--background-grey);
+ }
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.site-navigation  {
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--basic-black);
+  background-color: transparent;
+  list-style: none;
+}
+
+.main-header {
+  background-color: var(--basic-white);
+}
+
+.site-navigation a {
+	color: var(--basic-black);
+}
+
+.site-description p {
+	line-height: 26px;
+	background-color: var(--basic-white);
+}
+
+.site-description-1 {
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 26px;
+	color: var(--basic-black);
+}
+
+.features-item h3 {
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 21px;	
+}
+
+.item-blue {
+	color: var(--basic-white);
+	background-color: var(--basic-blue);
+}
+
+.item-grey {
+	color: var(--black-text);
+	background-color: var(--basic-grey);	
+}
+
+.item-grey h3 {
+	color: var(--basic-black);
+}
+
+.advices-item h3 {
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 21px;
+	color: var(--basic-black);
+}
+
+.advices {
+	background-color: var(--basic-white);
+}
+
+.search-hotel-title {
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 24px;
+	color: var(--basic-black);
+}
+
+.search-hotel p {
+	line-height: 24px;
+	color: var(--basic-black);
+}
+
+.search-hotel {
+	background-color: var(--basic-white);
+}
+
+.button {
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 26px;
+	color: var(--basic-white);
+	background-color: var(--basic-brown);
+}
+
+.main-footer {
+	background-color: var(--footer-background);
+}
+
+.contacts {
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 26px;
+	color: var(--basic-black);
+}
+
+.footer-copyright {
+	line-height: 26px;
+	color: var(--basic-black);
+}
