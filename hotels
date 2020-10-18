@@ -27,39 +27,39 @@
       </section>
       <section class="results">
         <h2>Результаты поиска</h2>
-        <ul>
-          <li>
+        <ul class="results-list">
+          <li class="results-item">
             <img src="https://via.placeholder.com/135x90" alt="">
             <a href="">
-              <h3>Amara Resort & Spa</h3>
-              <p>Подробнее</p>
+              <h3 class="hotel-title">Amara Resort & Spa</h3>
+              <p class="hotel-description">Подробнее</p>
             </a>
-            <p>Гостиница</p>
-            <p>От 4000 Р.</p>
-            <button type="button" class="button">Забронировать</button>
-            <p>Рейтинг: 8,5</p>
+            <p class="hotel-type">Гостиница</p>
+            <p class="price-from">От 4000 Р.</p>
+            <button type="button" class="button-reserve">Забронировать</button>
+            <p class="hotel-rating">Рейтинг: 8,5</p>
           </li>
-          <li>
+          <li class="results-item">
             <img src="https://via.placeholder.com/135x90" alt="">
             <a href="">
-              <h3>Desert Quail Inn</h3>
-              <p>Подробнее</p>
+              <h3 class="hotel-title">Desert Quail Inn</h3>
+              <p class="hotel-description">Подробнее</p>
             </a>
-            <p>Мотель</p>
-            <p>От 3000 Р.</p>
-            <button type="button" class="button">Забронировать</button>
-            <p>Рейтинг: 8,9</p>
+            <p class="hotel-type">Мотель</p>
+            <p class="price-from">От 3000 Р.</p>
+            <button type="button" class="button-reserve">Забронировать</button>
+            <p class="hotel-rating">Рейтинг: 8,9</p>
           </li>
-          <li>
+          <li class="results-item">
             <img src="https://via.placeholder.com/135x90" alt="">
             <a href="">
-              <h3>Villas at Poco Diablo</h3>
-              <p>Подробнее</p>
+              <h3 class="hotel-title">Villas at Poco Diablo</h3>
+              <p class="hotel-description">Подробнее</p>
             </a>
-            <p>Апартаменты</p>
-            <p>От 2000 Р.</p>
-            <button type="button" class="button">Забронировать</button>
-            <p>Рейтинг: 9,2</p>
+            <p class="hotel-type">Апартаменты</p>
+            <p class="price-from">От 2000 Р.</p>
+            <button type="button" class="button-reserve">Забронировать</button>
+            <p class="hotel-rating">Рейтинг: 9,2</p>
           </li>
         </ul>
       </section>
