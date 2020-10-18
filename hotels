@@ -10,7 +10,7 @@
     <header class="main-header">
       <nav class="main-navigation">
         <a href="index.html" class="main-header-logo">
-          <img src="https://via.placeholder.com/138x70" alt="Логотип города Седона">
+          <img src="img/logo.png" width="138" height="70" alt="Логотип города Седона">
         </a>
         <ul class="site-navigation">
           <li><a href="blank.html">Информация</a></li>
@@ -29,7 +29,7 @@
         <h2>Результаты поиска</h2>
         <ul class="results-list">
           <li class="results-item">
-            <img src="https://via.placeholder.com/135x90" alt="">
+            <img src="img/Amara-Resort.jpg" width="135" height="90" alt="Гостиница Amara Resort & Spa">
             <a href="">
               <h3 class="hotel-title">Amara Resort & Spa</h3>
               <p class="hotel-description">Подробнее</p>
@@ -40,7 +40,7 @@
             <p class="hotel-rating">Рейтинг: 8,5</p>
           </li>
           <li class="results-item">
-            <img src="https://via.placeholder.com/135x90" alt="">
+            <img src="img/Desert-Quail-Inn.jpg" width="135" height="90" alt="Мотель Desert Quail Inn">
             <a href="">
               <h3 class="hotel-title">Desert Quail Inn</h3>
               <p class="hotel-description">Подробнее</p>
@@ -51,7 +51,7 @@
             <p class="hotel-rating">Рейтинг: 8,9</p>
           </li>
           <li class="results-item">
-            <img src="https://via.placeholder.com/135x90" alt="">
+            <img src="img/Villas-at-Poco-Diablo.jpg" width="135" height="90" alt="Апартаменты Villas at Poco Diablo">
             <a href="">
               <h3 class="hotel-title">Villas at Poco Diablo</h3>
               <p class="hotel-description">Подробнее</p>
