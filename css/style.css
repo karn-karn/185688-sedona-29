@@ -217,10 +217,16 @@ img {
 	color: var(--basic-black);
 }
 
+.main-hotels {
+	display: grid;
+	grid-template-rows: 217px 1fr;
+}
+
 .filters {
 	font-weight: bold;
 	font-size: 16px;
 	color: var(--basic-white);
+	background-image: url("img/background-hotels.jpg");
 }
 
 .hotel-title {
@@ -245,6 +251,27 @@ img {
 .hotel-rating {
 	color: var(--basic-grey);
   	background-color: var(--grey-rating);
+}
+
+.results {
+	display: grid;
+	grid-template-rows: min-content 1fr 1fr 1fr;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.results h2 {
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 26px;
+	color: var(--basic-black);
+	background-color: var(--basic-white);
+}
+
+.results-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .results-item {
