@@ -226,8 +226,8 @@ img {
 	font-weight: bold;
 	font-size: 16px;
 	color: var(--basic-white);
-	background-image: url("img/background-hotels.jpg");
-}
+	background-image: url(img/background-hotels.jpg);
+	}
 
 .hotel-title {
 	font-weight: bold;
@@ -255,7 +255,7 @@ img {
 
 .results {
 	display: grid;
-	grid-template-rows: min-content 1fr 1fr 1fr;
+	grid-template-rows: min-content 1fr;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -269,8 +269,11 @@ img {
 }
 
 .results-list {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
 	list-style: none;
-	margin: 0;
+	width: 1200px;
+	margin: 0 auto;
 	padding: 0;
 }
 
