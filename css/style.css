@@ -85,11 +85,8 @@ img {
 .site-description {
  	display: grid;
   	grid-template-rows: 507px 216px;
-  }
-
-.site-description h2 {
-  	background-image: url("img/background-photo.jpg");
-  }
+  	background-image: url("../img/background-photo.jpg");
+ }
 
 .site-description p {
 	line-height: 26px;
@@ -116,18 +113,6 @@ img {
   	list-style: none;
 }
 
-.item-blue-img1 {
-	background-image: url("img/image-features-1.jpg");
-  	grid-column-start: 2;
-  	grid-column-end: 4;
-  }
-
-.item-blue-img2 {
-	background-image: url("img/image-features-2.jpg");
-	grid-column-start: 1;
-  	grid-column-end: 3;
-}
-
 .features-item h3 {
 	font-weight: bold;
 	font-size: 21px;
@@ -137,6 +122,54 @@ img {
 .item-blue {
 	color: var(--basic-white);
 	background-color: var(--basic-blue);
+}
+
+.item-blue-1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	color: var(--basic-white);
+	background-color: var(--basic-blue);
+	background-image: url(../img/image-features-1.jpg);
+	background-position: center right;
+	background-size: 800px 256px;
+	background-repeat: no-repeat;
+	background-color: var(--basic-blue);
+}
+
+.item-blue-1 p {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.item-blue-1 h3 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.item-blue-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	color: var(--basic-white);
+	background-color: var(--basic-blue);
+	background-image: url(../img/image-features-2.jpg);
+	background-position: center left;
+	background-size: 800px 256px;
+	background-repeat: no-repeat;
+	background-color: var(--basic-blue);
+}
+
+.item-blue-2 p {
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+
+.item-blue-2 h3 {
+	grid-column-start: 3;
+	grid-column-end: 4;
 }
 
 .item-grey {
@@ -226,7 +259,7 @@ img {
 	font-weight: bold;
 	font-size: 16px;
 	color: var(--basic-white);
-	background-image: url(img/background-hotels.jpg);
+	background-image: url(../img/background-hotels.jpg);
 	}
 
 .hotel-title {
